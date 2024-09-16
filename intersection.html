@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intersection observer</title>
+    <style>
+        * { margin: 0; padding: 0;}
+        li {
+            height: 25px;
+        }
+        ul {
+            position: relative;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="wraper">
+        <h2>触底加载，懒加载</h2>
+        <ul>
+            <li id="loading">加载中...</li>
+        </ul>
+    </div>
+    <script type="module" src="./intersection.js"></script>
+</body>
+</html>

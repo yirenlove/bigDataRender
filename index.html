@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>分批渲染</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="loading" style="text-align: center;height: 100vh; display: flex;justify-content: center;align-items: center;">
+      <div>
+        <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+      页面加载中...
+      </div>
+    </div>
+    <div class="main" style="visibility:hidden;">
+      <a href="./virtualTable.html">跳转虚拟列表页</a><br>
+      <a href="./intersection.html">跳转intersection Observer页</a>
+      <div id="box">
+        <ul></ul>
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>虚拟列表</title>
+    <style>
+        * { margin: 0; padding: 0; }
+    </style>
+</head>
+<body>
+    <h2>假设有1e5数量级的数据</h2>
+    <div class="wraper" style="height: 500px; overflow-y: scroll; position: relative;">
+        <div class="placeHolder"></div>
+        <ul style="position: absolute;top: 0;"></ul>
+    </div>
+    <script type="module" src="./virtualTable.js"></script>
+</body>
+</html>
