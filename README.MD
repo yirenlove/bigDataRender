@@ -12,3 +12,5 @@
 ![alt text](image.png)
 
 小优化：在插入渲染大量li插入到ul会频繁触发reflow，使用document.createDocumentFragment来减少reflow的次数
+
+[演示网址： https://yirenlove.github.io/bigDataRender/]( https://yirenlove.github.io/bigDataRender/)
